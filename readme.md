@@ -77,7 +77,7 @@ This automatically:
 
 **Terminal 1 - Business Server:**
 ```powershell
-python business_server.py
+uvicorn business_server:app --host 0.0.0.0 --port 8000
 ```
 
 **Terminal 2 - MCP Server:**
