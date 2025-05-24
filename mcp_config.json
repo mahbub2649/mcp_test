@@ -1,0 +1,34 @@
+{
+  "name": "business-server-mcp",
+  "description": "MCP Server that acts as a middleman between LLM and business server",
+  "version": "1.0.0",
+  "server": {
+    "command": "python",
+    "args": ["mcp_server.py"],
+    "env": {
+      "BUSINESS_SERVER_URL": "http://localhost:8000"
+    }
+  },
+  "tools": [
+    {
+      "name": "register_agent",
+      "description": "Register a new agent with the business server"
+    },
+    {
+      "name": "report_status", 
+      "description": "Report agent status to the business server"
+    },
+    {
+      "name": "get_tasks",
+      "description": "Get tasks assigned to a specific agent"
+    },
+    {
+      "name": "add_number",
+      "description": "Add 1 to a given number using the business server"
+    },
+    {
+      "name": "get_joke",
+      "description": "Get a random joke from the business server"
+    }
+  ]
+}

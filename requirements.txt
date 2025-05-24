@@ -1,0 +1,15 @@
+# MCP Server Dependencies Python >= 3.12
+mcp>=1.0.0
+# pip install git+https://github.com/modelcontextprotocol/python-sdk.git
+
+
+httpx>=0.25.0
+
+# Business Server Dependencies (if running locally)
+fastapi>=0.100.0
+uvicorn>=0.20.0
+pydantic>=2.0.0
+requests>=2.28.0
+
+# MCP Client Dependencies
+python-dotenv>=1.0.0
