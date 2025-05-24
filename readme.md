@@ -35,7 +35,7 @@ This system allows LLMs to interact with business server functionality through a
 
 ### Prerequisites
 
-- **Python 3.8+** installed on your system
+- **Python 3.12+** installed on your system
 - **LLM API Key** (configured in environment variables)
 - **Internet connection** for LLM API calls
 
